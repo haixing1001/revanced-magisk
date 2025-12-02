@@ -43,7 +43,7 @@ parallel-jobs = 1
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 
 [YouTube-Extended]
-enabled = true
+enabled = false
 app-name = "YouTube"
 patches-source = "inotia00/revanced-patches"
 cli-source = "inotia00/revanced-cli"
@@ -122,11 +122,16 @@ uptodown-dlurl = "https://twitch.en.uptodown.com/android"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/tv.twitch.android.app"
 
 [Twitter]
-enabled = false
+enabled = true
+patches-source = "crimera/piko"
+cli-source = "ReVanced/revanced-cli"
+cli-version = "v4.6.0"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
+version = "11.32.0-release.0"
 build-mode = "apk"
-dpi = "120-640dpi"
+#dpi = "120-640dpi"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
+uptodown-dlurl = "https://twitter.en.uptodown.com/android"
 
 [TikTok]
 enabled = false
